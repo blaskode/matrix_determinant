@@ -1,5 +1,5 @@
 target="determinant"
-dflags=-Wall -Werror -std=c17
+dflags=-g -Wall -Werror -std=c17
 cflags=-std=c17
 
 make:
