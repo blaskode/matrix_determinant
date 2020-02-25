@@ -50,7 +50,7 @@ void read_matrix(FILE * f, int sz, int ** matrix){
 }
 
 int determinant(int ** matrix, int n){
-  int det;
+  int det = 0;
   if (n == 2){
     int a, b, c, d;
     a = matrix[0][0];
